@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+header{
+    display: inline;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    padding: 20px;
+    overflow: auto;
+}
+
+.flyerweb{
+    padding: 60px;
+    background-color: #F0A04B;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+nav {
+    background-color: transparent;
+    padding: 4px;
+    position: sticky;
+    margin: auto; 
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: black;
+ }
+
+p {
+    font-size: px;
+}
+
+ th, td {
+   text-align: left;
+   font-size: 15px;
+}
+
+ .featured-image{
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5px;
+    padding: 25px;
+    margin-top: 10px;
+ }
+
+ .profile header{
+    text-align: center;
+ }
+
+ .profile img{
+    width: 200px;
+ }
+
+ #content{
+    float: left;
+    width: 75%;
+ }
+
+aside{
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+
+footer{
+   padding: 20px;
+   color: white;
+   background-color: #F0A04B;
+   font-weight: bold;
+   text-align: center;
+}
+
+ * {
+    box-sizing: border-box;
+ }
+
+ @media screen and (max-width: 1000px) {
+    #content, aside{
+        width: 100%;
+        padding: 0;
+    }
+    
+ }
